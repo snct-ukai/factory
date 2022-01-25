@@ -22,7 +22,7 @@ protected:
     BASKETBALL,
     BASEBALL,
     TENNISBALL
-  }
+  };
 
   virtual void init();
   virtual void update();
