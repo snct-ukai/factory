@@ -18,6 +18,12 @@ protected:
   Ball();
   virtual ~Ball();
 
+  enum class TYPE{
+    BASKETBALL,
+    BASEBALL,
+    TENNISBALL
+  }
+
   virtual void init();
   virtual void update();
   virtual void draw();
